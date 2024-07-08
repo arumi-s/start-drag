@@ -1,6 +1,6 @@
 {
 	"name": "start-drag",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Listens and composes mouse or touch events to dragging callbacks",
 	"type": "module",
 	"author": {
@@ -28,11 +28,11 @@
 	"files": [
 		"dist"
 	],
-	"main": "./dist/index.js",
-	"module": "./dist/index.mjs",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
 	"exports": {
-		"require": "./dist/index.js",
-		"import": "./dist/index.mjs"
+		"require": "./dist/index.cjs",
+		"import": "./dist/index.js"
 	},
 	"types": "./dist/index.d.ts",
 	"scripts": {

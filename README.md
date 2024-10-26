@@ -13,7 +13,7 @@ npm i start-drag
 ## Usage
 
 ```typescript
-import { strtr } from 'start-drag';
+import { startDrag } from 'start-drag';
 
 element.addEventListener('mousedown', (event) => {
 	const destroy = startDrag(
